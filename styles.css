@@ -40,7 +40,7 @@ header {
 }
 
 #button1 {
-    background-color: #4CAF50;
+    background-color: #e64946;
     border: 1px solid #000000;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);;
     border-radius: 10px;
@@ -55,7 +55,7 @@ header {
 
 }
 #button1:hover {
-    background-color: #45a049;
+    background-color: #e91c18;
 }
 
 #button2 {
