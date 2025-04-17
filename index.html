@@ -6,15 +6,17 @@
         <title>CS101 Final Project</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body id="body">
+    <body id="body" onload="bodyLoaded()">
         <div id="page-wrapper">
             <header>
                 <h1>CS101 Final Project</h1>
             </header>
             <main>
                 <div id="button-container">
-                    <h3>This button will change the background color to a random color</h3>
+                    <h3>Mystery buttons</h3>
                     <button onclick="colorChange()" id="button1">Click me</button>
+                    <button onclick="fontChange()" id="button2">Click me</button>
+                    <button onclick="sizeChange()" id="button3">Click me</button>
                 </div>
             </main>
         </div>
