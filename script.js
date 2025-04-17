@@ -10,6 +10,7 @@ function fontChange() {
     const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
     console.log("Random font selected:", randomFont);
     document.getElementById("body").style.fontFamily = randomFont;
+    document.querySelectorAll('#button-container button').forEach(button => {button.style.fontFamily = randomFont});
 }
 
 function sizeChange() {
@@ -17,6 +18,7 @@ function sizeChange() {
     const fontSizes = ["12px", "14px", "16px", "18px", "20px", "22px", "24px", "26px", "28px", "30px", "32px", "34px", "36px", "38px", "40px"];
     const randomFontSize = fontSizes[Math.floor(Math.random() * fontSizes.length)];
     document.getElementById("body").style.fontSize = randomFontSize;
+    document.querySelectorAll('#button-container button').forEach(button => {button.style.fontSize = randomFontSize});
 }
 
 function bodyLoaded() {
