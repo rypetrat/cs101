@@ -6,7 +6,7 @@
         <title>CS101 Final Project</title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body id="body" onload="bodyLoaded()">
+    <body id="body" onload="StyleController.bodyLoaded()">
         <div id="page-wrapper">
             <header>
                 <h1>CS101 Final Project</h1>
@@ -14,12 +14,14 @@
             <main>
                 <div id="button-container">
                     <h3>Mystery buttons</h3>
-                    <button onclick="colorChange()" id="button1">Click me</button>
-                    <button onclick="fontChange()" id="button2">Click me</button>
-                    <button onclick="sizeChange()" id="button3">Click me</button>
+                    <button onclick="StyleController.colorChange()" id="button1">Click me</button>
+                    <button onclick="StyleController.fontChange()" id="button2">Click me</button>
+                    <button onclick="StyleController.sizeChange()" id="button3">Click me</button>
                 </div>
             </main>
         </div>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+        <script src="controller.js"></script>
     </body>
-    <script src="script.js"></script>
 </html>
